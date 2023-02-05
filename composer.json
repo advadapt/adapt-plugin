@@ -1,0 +1,25 @@
+{
+    "name": "advadapt/adapt-plugin",
+    "description": "Adapt Plugin for AdaptPress",
+    "type": "adaptpress-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AdaptPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anvalchev",
+            "email": "32509996+anvalchev@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
