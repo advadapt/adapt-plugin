@@ -1,5 +1,6 @@
 {
     "name": "advadapt/adapt-plugin",
+    "version": "1.0.0-dev",
     "description": "Adapt Plugin for AdaptPress",
     "type": "adaptpress-plugin",
     "license": "MIT",
